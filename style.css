@@ -53,7 +53,7 @@ section>div>img{
     margin-top: 30px;
     margin-bottom: 40px;
     display: grid;
-    grid-template-columns: 20px auto auto;
+    grid-template-columns: 20px auto 50px;
 }
 .novinha>img{
     width: 40px;
@@ -67,6 +67,11 @@ section>div>img{
 #Change{
     line-height: 50px;
 }
+.normie{
+    text-align: left;
+    margin-left: 30px;
+}
+
 
 
 button{
