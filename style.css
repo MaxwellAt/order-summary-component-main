@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body>p{
+    font-size: 16px;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 1390px 300px;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+    height: 100%;
+}
+section{
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section>div{
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    width: 350px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+section>div>img{
+    width: 100%;
+}
+.texto-principal{
+    padding:10%;
+    overflow: hidden;
+}
+.texto-principal>h1{
+    font-family: 'Red Hat Display' , sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.texto-principal>p{
+    font-family: 'Red Hat Display' , sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.novinha{
+    padding: 4%;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 20px auto auto;
+}
+.novinha>img{
+    width: 40px;
+}
+#preço{
+    margin-top: 3px;
+}
+#tutulo{
+    margin-bottom: 3px;
+}
+#Change{
+    line-height: 50px;
+}
+
+
+button{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+.pagamento{
+    background-color: blue;
+}
+.cancelar{
+    background-color: transparent;
+}
