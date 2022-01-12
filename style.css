@@ -42,12 +42,11 @@ section>div>img{
 }
 .texto-principal>p{
     font-family: 'Red Hat Display' , sans-serif;
-    font-weight: 500;
+  font-weight: 500;
     margin-bottom: 10px;
 }
 .novinha{
     padding: 4%;
-    width: 100%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
     overflow: hidden;
