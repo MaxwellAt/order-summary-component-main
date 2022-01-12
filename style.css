@@ -1,8 +1,9 @@
 *{
     margin: 0;
     border: 0;
+    font-family: 'Red Hat Display' , sans-serif;
 }
-body>p{
+p{
     font-size: 16px;
 }
 body{
@@ -36,52 +37,60 @@ section>div>img{
     overflow: hidden;
 }
 .texto-principal>h1{
-    font-family: 'Red Hat Display' , sans-serif;
     font-weight: 900;
     margin-bottom: 10px;
 }
 .texto-principal>p{
     font-family: 'Red Hat Display' , sans-serif;
-  font-weight: 500;
+    font-weight: 500;
     margin-bottom: 10px;
+    color:hsl(224, 23%, 55%);
 }
 .novinha{
     padding: 4%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
     overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: 20px auto 50px;
 }
 .novinha>img{
     width: 40px;
-}
-#preço{
-    margin-top: 3px;
-}
-#tutulo{
-    margin-bottom: 3px;
-}
-#Change{
     line-height: 50px;
 }
+#tutulo{
+    font-weight: 700;
+    margin: 4px 0px;
+}
+#preço{
+    margin: 4px 0px ;
+    color:hsl(224, 23%, 55%);
+}
 .normie{
+    margin-top: -4px;
     text-align: left;
     margin-left: 30px;
 }
-
+.novinha>a{
+    line-height: 50px;
+    color: hsl(245, 75%, 52%);
+}
 
 
 button{
     width: 100%;
-    height: 35px;
     border-radius: 10px;
+    height: 40px;
+    margin: 5px 0px;
+    font-weight: 700;
 }
 .pagamento{
-    background-color: blue;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
 }
 .cancelar{
     background-color: transparent;
+    color: hsl(224, 23%, 55%);
 }
