@@ -46,7 +46,7 @@ section>div>img{
     margin-bottom: 10px;
     color:hsl(224, 23%, 55%);
 }
-.novinha{
+.card2{
     padding: 4%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
@@ -56,11 +56,11 @@ section>div>img{
     display: grid;
     grid-template-columns: 20px auto 50px;
 }
-.novinha>img{
+.card2>img{
     width: 40px;
     line-height: 50px;
 }
-#tutulo{
+#titulo_da_div1{
     font-weight: 700;
     margin: 4px 0px;
 }
@@ -68,17 +68,19 @@ section>div>img{
     margin: 4px 0px ;
     color:hsl(224, 23%, 55%);
 }
-.normie{
+.div1{
     margin-top: -4px;
     text-align: left;
     margin-left: 30px;
 }
-.novinha>a{
+.card2a>a{
     line-height: 50px;
     color: hsl(245, 75%, 52%);
 }
-
-
+.card2>a:hover{
+    color:hsl(224, 23%, 55%);
+    text-decoration:none;
+}
 button{
     width: 100%;
     border-radius: 10px;
@@ -87,11 +89,19 @@ button{
     font-weight: 700;
 }
 .pagamento{
-    background-color: hsl(245, 75%, 52%);
     color: white;
     box-shadow: 0px 15px 10px hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+}
+.pagamento:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor:pointer;    
 }
 .cancelar{
     background-color: transparent;
     color: hsl(224, 23%, 55%);
+}
+.cancelar:hover{
+    color:hsl(223, 47%, 23%);
+    cursor:pointer;
 }
