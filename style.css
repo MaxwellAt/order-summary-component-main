@@ -12,9 +12,6 @@ body{
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 section{
     text-align: center;
